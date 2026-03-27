@@ -182,52 +182,93 @@ footer {
 
 
 
-
-
 /* APPLY */
-.apply {
-    position: relative;
+
+.apply-hero {
+    height: 100vh;
+    background-image: url("vjt.jpeg"); /* your background image */
+    background-size: cover;
+    background-position: center;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 6rem 2rem;
-    
-    background-size: cover;       
-    background-position: center center; 
-    background-repeat: no-repeat;
-    color: white;                    
+    color: white;
+    position: relative;
 }
 
-.apply::before {
-    content: '';
+.apply-hero::before {
+    content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.35); 
+    background: rgba(0,0,0,0.45);
 }
 
 .apply-content {
     position: relative;
     z-index: 1;
+    max-width: 600px;
+    padding: 20px;
 }
 
-.apply .logo-mark {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto 1.5rem;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    overflow: hidden;
+.apply-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 
-.apply .logo-mark img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.apply-content p {
+    margin-bottom: 2rem;
+    color: #ddd;
 }
 
+/* BUTTONS */
+.apply-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.btn {
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
 
+.btn-primary {
+    background: white;
+    color: black;
+}
+
+.btn-primary:hover {
+    opacity: 0.8;
+}
+
+.btn-outline {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: black;
+}
+
+/* TOP BACK BUTTON */
+.top-bar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
 
 
 
@@ -292,4 +333,53 @@ footer {
 
 .about-container li {
     margin-bottom: 6px;
+}
+
+
+
+
+
+
+/* RECORDS */
+/* HERO */
+.rec {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 6rem 2rem;
+
+    background-size: cover;       
+    background-position: center center; 
+    background-repeat: no-repeat;
+    color: white;                    
+}
+
+.rec::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35); 
+}
+
+.rec-content {
+    position: relative;
+    z-index: 1;
+}
+
+.rec .logo-mark {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 1.5rem;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    place-content: center;
+}
+
+.rec .logo-mark img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
