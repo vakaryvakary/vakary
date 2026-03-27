@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apply – VAKA ry</title>
+
+<link rel="stylesheet" href="style.css">
+
+<header class="about-header">
+	<div class="logo-mark">
+		<img src="logo.png" alt="VAKA logo">
+        </div>
+    <a href="index.html" class="back-btn">Home</a>
+</header>
+
+<style>
+/* APPLY PAGE HERO */
+.apply-hero {
+    height: 100vh;
+    background-image: url("vjt.jpeg"); /* your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.apply-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+}
+
+.apply-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.apply-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.apply-content p {
+    margin-bottom: 2rem;
+    color: #ddd;
+}
+
+/* BUTTONS */
+.apply-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+
+.btn-primary {
+    background: white;
+    color: black;
+}
+
+.btn-primary:hover {
+    opacity: 0.8;
+}
+
+.btn-outline {
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: black;
+}
+
+/* TOP BACK BUTTON */
+.top-bar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+</style>
+
+</head>
+
+<body>
+
+
+<!-- HERO -->
+<section class="apply-hero">
+    <div class="apply-content">
+
+        <h1>Apply</h1>
+
+
+        <div class="apply-buttons">
+            <!-- GOOGLE FORM BUTTON -->
+            <a href="https://docs.google.com/forms/d/1ZiPLqjR0MO_jCP6f7ZqurGi4SjjttGg4RE7i77ZF6J0/edit" target="_blank" class="btn btn-primary">
+                Apply Now
+            </a>
+
+            <!-- OPTIONAL SECOND BUTTON -->
+            <a href="about.html" class="btn btn-outline">
+                Learn More
+            </a>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
