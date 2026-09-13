@@ -34,8 +34,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 650px;
-  min-width: 0;
+  width: 550px;
+  min-width: 500px;
   padding: 0.50rem 0.72rem;;
   border-radius: 25px;
   border: 1px solid rgba(248, 227, 105, 0.43);
@@ -85,7 +85,6 @@
   letter-spacing: 0.02em;
   text-transform: none;
   text-decoration: none;
-  white-space: nowrap;
   color: rgb(251, 251, 249);
   transition: color 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
 }
@@ -121,7 +120,7 @@
   height: 500px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
   .navbar-shell {
     position: fixed;
     top: 1.2rem;
