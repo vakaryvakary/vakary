@@ -117,8 +117,8 @@ export default function FooterSection() {
         <div className="footer-content center-content">
           <div className="footer-links footer-links--association">
             <p>Association</p>
-            <a href="#">Vesijärven Academic Kippistely Association Vaka ry</a>
-            <a href="#">Mukkulankatu 19, <br></br> 15240 Lahti</a>
+            <span>Vesijärven Academic Kippistely Association Vaka ry</span>
+            <span>Mukkulankatu 19, <br /> 15240 Lahti</span>
           </div>
           
           <div className="footer-links">

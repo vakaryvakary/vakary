@@ -11,6 +11,7 @@ import museumBg from './assets/museum-bg.jpg';
 import { MotionAccordion } from './components/motion-faqs-accordion.jsx';
 import MemberSection from './MemberSection.jsx';
 import FooterSection from './FooterSection.jsx';
+import AboutSection from './AboutSection.jsx';
 
 const items = [
   {
@@ -121,6 +122,8 @@ function Homepage() {
     <main className="homepage">
         <LandingHero />
 
+      <AboutSection />
+
       <section className="home-section home-section--projects" id="projects">
         <div className="home-section__texture" aria-hidden="true" />
         <div className="project-header mb-10">
@@ -159,13 +162,6 @@ function Homepage() {
               className="home-instagram-embed__frame"
               referrerPolicy="strict-origin-when-cross-origin"
             />
-            <a
-              className="home-instagram-embed__link"
-              href="https://www.instagram.com/vaka.ry/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-            </a>
           </div>    
           </div>
         </div>
