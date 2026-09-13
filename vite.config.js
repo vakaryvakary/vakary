@@ -3,9 +3,9 @@ import tailwindcss from '@tailwindcss/vite'
 import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
 
-// GitHub Pages serves project sites under a repository subpath like /vaka-website/.
+// The production site is served from the custom-domain root: https://vakary.fi/.
 export default defineConfig({
-  base: '/vaka-website/',
+  base: '/',
   plugins: [
     react(),
     tailwindcss(),
