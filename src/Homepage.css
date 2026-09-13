@@ -259,7 +259,7 @@ p,
   z-index: 1;
 }
 
-/* About and statutes */
+/* Saved About and statutes design
 .about-section {
   background: var(--accent-white);
   color: var(--primary-blue);
@@ -502,6 +502,8 @@ p,
   }
 
 }
+
+*/
 
 /* Member section styles */
 .member-section {

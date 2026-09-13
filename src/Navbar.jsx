@@ -5,7 +5,6 @@ import './Navbar.css';
 
 const defaultItems = [
   { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
   { label: 'Projects', href: '#projects' },
   { label: 'Members', href: '#members' },
   { label: 'Contact us', href: '#join' },

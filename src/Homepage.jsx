@@ -11,7 +11,6 @@ import museumBg from './assets/museum-bg.jpg';
 import { MotionAccordion } from './components/motion-faqs-accordion.jsx';
 import MemberSection from './MemberSection.jsx';
 import FooterSection from './FooterSection.jsx';
-import AboutSection from './AboutSection.jsx';
 
 const items = [
   {
@@ -121,8 +120,6 @@ function Homepage() {
   return (
     <main className="homepage">
         <LandingHero />
-
-      <AboutSection />
 
       <section className="home-section home-section--projects" id="projects">
         <div className="home-section__texture" aria-hidden="true" />
