@@ -66,7 +66,6 @@ export default function AboutSection() {
       </header>
 
       <article className="about-purpose">
-        <p className="about-purpose__label">Purpose and Aim</p>
         <div className="about-purpose__content">
           <p className="about-purpose__lead">
             Vesijärven Academic Kippistely Association VAKA ry is an association that aims to promote and support the student culture and activities for LUT &amp; LAB higher education students.
@@ -81,10 +80,7 @@ export default function AboutSection() {
       <details className="about-rules">
         <summary>
           <span className="about-rules__title">Rules and Statutes</span>
-          <span className="about-rules__action">
-            <span className="about-rules__action-label">Open rules</span>
-            <span className="about-rules__icon" aria-hidden="true" />
-          </span>
+          <span className="about-rules__icon" aria-hidden="true" />
         </summary>
 
         <div className="about-rules__content">
